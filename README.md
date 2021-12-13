@@ -3,6 +3,13 @@
 ## Website
 [GHS](https://global-healthcare-system.herokuapp.com/)
 
+## YouTube
+* [GHS Video](https://youtu.be/JRaALWO--bk)
+* [GHS Video - Extended Cut](https://youtu.be/jNgQncYzfGE)
+
+## PPT
+[GHS PPT](https://drive.google.com/file/d/1IfyJI1NHCUfYl5N0ZHtsFtooN8twvzFS/view?usp=sharing)
+
 ## Team Name 
 Debug Thugs
 
@@ -27,3 +34,21 @@ Debug Thugs
 * And also they are able to enter data on a current health issue and the patient's expenditure on that issue.
 * Users can book their appointment with any doctor and they can also search for doctor by selecting doctor’s degree and speciality.
 * Users can see their medical expenditure, for doctor’s fees and for medicines too.
+
+## How to run
+```bash
+# Fetch the GHS repo using git
+git clone https://github.com/Rushijaviya/GHS.git
+
+# Go inside the GHS directory
+cd GHS
+
+# Install a compatible version of GHS
+pip install -r requirements.txt
+
+# run command
+python manage.py runserver
+
+# Go to this url in browser
+http://127.0.0.1:8000/
+```
